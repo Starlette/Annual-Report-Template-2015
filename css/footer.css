@@ -1,0 +1,78 @@
+footer {
+	background-color:#333333;
+	position:relative;
+	z-index:4;
+	font-weight:300;
+	-webkit-box-shadow:0 -4px 4px rgba(0,0,0,0.4);
+	   -moz-box-shadow:0 -4px 4px rgba(0,0,0,0.4);
+		-ms-box-shadow:0 -4px 4px rgba(0,0,0,0.4);
+		 -o-box-shadow:0 -4px 4px rgba(0,0,0,0.4);
+			box-shadow:0 -4px 4px rgba(0,0,0,0.4);
+}
+footer, footer h3, footer a {
+	font-weight:400;
+	color:#CCCCCC;
+}
+footer .page {
+	padding:40px 0;
+}
+footer .copyright {
+	background-color:#070707;
+}
+footer .copyright .page {
+	padding:16px 0 13px 0;
+	line-height:14px;
+}
+footer a {
+	text-decoration:none;
+}
+footer a:hover {
+	color:#7EA0A3;
+}
+footer strong {
+	font-weight:700;
+}
+footer .button:hover {
+	color:#ffffff!important;
+}
+footer .button {
+	font-size:14px;
+	line-height:12px;
+	padding:17px 20px 15px 65px;
+}
+footer .button:before {
+	width:50px;
+}
+footer .button:after {
+	border-top:solid 7px transparent;
+	border-bottom:solid 7px transparent;
+	border-left:solid 10px #555555;
+	top:15px;
+	left:20px;
+}
+
+
+/* LIGHT VERSION OF FOOTER */
+footer.light {
+	background:url(../img/background-5.jpg) no-repeat top center #EEEEEE;
+	background-size:100% 100%;
+}
+footer.light, footer.light h3, footer.light a {
+	color:#333333;
+}
+footer.light .copyright {
+	background:url(../img/background-6.jpg) no-repeat top right, url(../img/background-6-repeat.gif) repeat-x top left #555555;
+	background-size:auto 100%;
+}
+footer.light .copyright, footer.light .copyright a {
+	color:#ffffff;
+}
+footer.light .copyright a:hover {
+	color:#80B4B7;
+}
+footer.light a:hover {
+	color:#406F71;
+}
+footer.light .social-media a span, footer.light .list-icons-big span {
+	background-color:#ffffff;
+}

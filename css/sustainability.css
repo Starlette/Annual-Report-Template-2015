@@ -1,0 +1,81 @@
+.sustainability {
+	padding:0;
+	position:relative;
+	background:none;
+}
+.sustainability .preview {
+	display:block;
+	float:left;
+	width:50%;
+	position:relative
+}
+.sustainability .preview img {
+	display:block;
+	width:100%;
+	height:auto;
+}
+.sustainability .preview span {
+	font-family:"annual-report";
+	font-size:60px;
+	line-height:60px;
+}
+.sustainability .preview .text {
+	position:absolute;
+	top:0;
+	left:0;
+	width:70%;
+	padding:0 15%;
+	height:100%;
+	text-align:center;
+	font-weight:300;
+	font-size:35px;
+	color:#ffffff;
+	line-height:40px;
+	background-color:rgba(34,34,34,0.8);
+	*background-color:#333333;
+	opacity:0;
+}
+.sustainability .preview:hover .text {
+	opacity:1;
+}
+.sustainability .page {
+	position:absolute;
+	top:0;
+	left:50%;
+	height:100%;
+	width:560px;
+	padding-left:40px;
+}
+.sustainability .information {
+	height:100%;
+}
+.sustainability .section {
+	position:relative;
+	clear:both;
+}
+.sustainability.right .preview {
+	float:right;
+}
+.sustainability.right .page {
+	left:auto;
+	right:50%;
+	padding-left:0;
+	padding-right:40px;
+}
+.sustainability h1 {
+	margin:0 0 40px 0;
+}
+.sustainability p {
+	font-size:16px;
+	line-height:24px;
+	font-weight:300;
+}
+.sustainability .section:nth-child(2n+2) .preview {
+	float:right;
+}
+.sustainability .section:nth-child(2n+2) .page {
+	left:auto;
+	right:50%;
+	padding-left:0;
+	padding-right:40px;
+}

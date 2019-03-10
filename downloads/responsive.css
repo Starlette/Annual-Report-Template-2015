@@ -1,0 +1,53 @@
+header .responsive-menu { display:none; }
+
+@media screen and (max-width: 800px) {
+	body, .sustainability p, figure p { font-size:13px; line-height:20px; }
+	h1 { font-size:20px; line-height:26px; }
+	h2 { font-size:16px; line-height:22px; }
+	section { padding:30px 0; }
+	.cols .col { width:100%!important; margin-right:0!important; margin-bottom:20px; }
+	.cols .col:last-child { margin-bottom:0; }
+	.page { margin:0 20px; }
+	nav ul { display:none; }
+	figure { background-size:100% 100%; margin-top:-5px!important; }
+	figure img { position:relative; width:100%; }
+	figure .page { margin:0; position:relative; }
+	figure .text { width:100%; -webkit-box-shadow:0 -4px 4px rgba(0,0,0,0.4);  -moz-box-shadow:0 -4px 4px rgba(0,0,0,0.4); -ms-box-shadow:0 -4px 4px rgba(0,0,0,0.4); -o-box-shadow:0 -4px 4px rgba(0,0,0,0.4); box-shadow:0 -4px 4px rgba(0,0,0,0.4); min-height:325px; }
+	figure .text:after { display:none; }
+	figure h1, figure p { margin-right:20px; margin-left:20px; margin-bottom:20px; }
+	figure p { padding-right:0; }
+	figure h1 { font-size:20px; line-height:26px; }
+	figure .button { margin-left:20px; }
+	figure span { bottom:auto; top:37%; width:100%; font-size:15px; line-height:18px; }
+	figure .slick-dots { margin-left:0; bottom:50%; width:auto; display:inline-block; }
+	.heading { font-size:25px; line-height:27px; }
+	.heading small, .heading span { font-size:14px; line-height:20px; }
+	.popup-heading { font-size:16px; }
+	header .page { margin:0 0 0 0; }
+	header p { font-size:12px; }
+	header .responsive-menu { display:block; }
+	header .headerNav { display:none; }
+	nav a { display:inline-block; float:none; }
+	nav p { text-align:center; width:100%; float:none; }
+	.button { font-size:14px; line-height:12px; padding:17px 20px 15px 65px; }
+	.button:before { width:50px; }
+	.button:after { border-top:solid 7px transparent; border-bottom:solid 7px transparent; border-left:solid 10px #555555; top:15px; left:20px; }
+	.finCarousel { padding:25px 0 40px 0; background-color:#EEEEEE; }
+	h3 { font-size:16px; line-height:22px; }
+	.finCarousel span { font-size:30px; line-height:30px; }
+	.sustainability .preview { width:100%; float:none!important; }
+	.sustainability .preview span { font-size:30px; line-height:30px; }
+	.sustainability .preview .text { font-size:20px; line-height:25px; }
+	.sustainability .page, .sustainability .section:nth-child(2n+2) .page { position:relative; top:auto; right:auto; left:auto; width:auto!important; margin:30px 20px!important; padding:0 0 0 0!important; }
+	table [width='130'], table [width='100'] { width:60px; }
+	.tble { font-size:11px; line-height:15px; }
+	#columns .column { height:auto!important; -webkit-border-radius:10px; -moz-border-radius:10px; -ms-border-radius:10px; -o-border-radius:10px; border-radius:10px; }
+	#columns .column:hover > .icon { background-image:url(../img/shape-1.svg); color:#ffffff; }
+	#columns .column:hover { background-color:#ffffff; margin:0 0; padding:30px 0; }
+	#columns .column:hover > p, #columns .column:hover > h3 { color:#333333; }
+	.slick-dots { margin-left:0!important; width:100%; display:block; text-align:center; }
+}
+@media screen and (max-width: 400px) {
+	figure span { bottom:60%; }
+	figure .slick-dots { bottom:60%; }
+}

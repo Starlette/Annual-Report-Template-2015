@@ -1,0 +1,119 @@
+nav {
+	position:relative;
+	z-index:999;
+	background-color:#ffffff;
+	-webkit-box-shadow:0 4px 4px rgba(0,0,0,0.45);
+	   -moz-box-shadow:0 4px 4px rgba(0,0,0,0.45);
+	    -ms-box-shadow:0 4px 4px rgba(0,0,0,0.45);
+		 -o-box-shadow:0 4px 4px rgba(0,0,0,0.45);
+		    box-shadow:0 4px 4px rgba(0,0,0,0.45);
+	-webkit-transition:all 0.2s linear;
+	   -moz-transition:all 0.2s linear;
+		-ms-transition:all 0.2s linear;
+		 -o-transition:all 0.2s linear;
+			transition:all 0.2s linear;
+}
+.fixed nav {
+	position:fixed;
+	top:-60px;
+	left:0;
+	width:100%;
+	background-color:#EEEEEE;
+	-webkit-transition:all 0.5s linear;
+	   -moz-transition:all 0.5s linear;
+		-ms-transition:all 0.5s linear;
+		 -o-transition:all 0.5s linear;
+			transition:all 0.5s linear;
+}
+.fixed nav.movein {
+	top:0;
+}
+nav p, nav li {
+	float:left;
+}
+nav ul ul .page {
+	position:relative;
+}
+nav ul {
+	float:right;
+	margin-bottom:0;
+}
+nav ul, nav li {
+	list-style:none;
+}
+nav img, nav a {
+	display:block;
+}
+nav p {
+	margin:5px 0;
+}
+nav li a {
+	color:#212121;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:22px 15px;
+	display:block;
+	line-height:16px;
+	font-size:14px;
+}
+nav li a:hover, nav li a.current {
+	background-color:#CDD9DC;
+	color:#345A5C;
+}
+nav ul ul {
+	padding:35px 0;
+	position:absolute;
+	display:none;
+	left:0;
+	width:100%;
+	background:url(../img/dropdown-shadow-top.png) repeat-x top left #ffffff;
+	-webkit-box-shadow:0 4px 4px rgba(0,0,0,0.45);
+	   -moz-box-shadow:0 4px 4px rgba(0,0,0,0.45);
+	    -ms-box-shadow:0 4px 4px rgba(0,0,0,0.45);
+		 -o-box-shadow:0 4px 4px rgba(0,0,0,0.45);
+		    box-shadow:0 4px 4px rgba(0,0,0,0.45);
+}
+nav ul ul li {
+	width:25%;
+}
+nav ul ul .big {
+	width:30%;
+}
+nav ul ul a {
+	padding:10px 10px 10px 35px;
+	text-transform:none;
+	color:#222222;
+	font-size:14px;
+	position:relative;
+}
+nav ul ul a:before {
+	content:"";
+	width:0;
+	height:0;
+	border-top:solid 5px transparent;
+	border-bottom:solid 5px transparent;
+	border-left:solid 8px #222222;
+	position:absolute;
+	top:12px;
+	left:20px;
+}
+nav ul ul a:hover {
+	background-color:#46797B;
+	color:#ffffff;
+}
+nav ul ul a:hover:before {
+	border-left-color:#ffffff;
+}
+nav li a.active {
+	background-color:#46797B;
+	color:#ffffff;
+}
+nav li li a.active {
+	background-color:transparent;
+	color:#46797B;
+	font-weight:700;
+	cursor:default;
+}
+nav li li a.active:before {
+	border-left-color:#46797B;
+}
